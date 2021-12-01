@@ -1,0 +1,77 @@
+# Compile of updowncounter.v failed with 2 errors.
+# Compile of updowncounter.v was successful.
+vsim -gui work.updowncounter
+# vsim -gui work.updowncounter 
+# Start time: 20:21:47 on Dec 01,2021
+# Loading work.updowncounter
+# Loading work.JKFF
+add wave -position insertpoint  \
+sim:/updowncounter/MOD \
+sim:/updowncounter/CLK \
+sim:/updowncounter/CLR
+add wave -position insertpoint  \
+sim:/updowncounter/Q
+force -freeze sim:/updowncounter/MOD 1 0
+force -freeze sim:/updowncounter/CLK 1 0, 0 {50 ps} -r 100
+force -freeze sim:/updowncounter/CLR 1 0
+run
+run
+force -freeze sim:/updowncounter/CLR 0 0
+run
+force -freeze sim:/updowncounter/CLR 1 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+quit -sim
+# End time: 20:43:10 on Dec 01,2021, Elapsed time: 0:21:23
+# Errors: 0, Warnings: 3
+# Compile of SynchronousCounter.v was successful.
+vsim -gui work.SynchronusCounter
+# vsim -gui work.SynchronusCounter 
+# Start time: 21:00:39 on Dec 01,2021
+# Loading work.SynchronusCounter
+# Loading work.JKFF
+add wave -position insertpoint  \
+sim:/SynchronusCounter/clr \
+sim:/SynchronusCounter/clk \
+sim:/SynchronusCounter/mod
+add wave -position insertpoint  \
+sim:/SynchronusCounter/Q
+force -freeze sim:/SynchronusCounter/clr 0 0
+force -freeze sim:/SynchronusCounter/clk 1 0, 0 {50 ps} -r 100
+force -freeze sim:/SynchronusCounter/mod 0 0
+run
+run
+force -freeze sim:/SynchronusCounter/clr 1 0
+run
+run
+run
+run
+run
+run
+run
+run
+force -freeze sim:/SynchronusCounter/mod 0 0
+run
+run
+run
+run
+run
+run
+force -freeze sim:/SynchronusCounter/mod 1 0
+run
+run
+run
+run
+run
+quit -sim
+# End time: 21:03:53 on Dec 01,2021, Elapsed time: 0:03:14
+# Errors: 0, Warnings: 3

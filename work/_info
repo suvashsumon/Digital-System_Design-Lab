@@ -1,0 +1,129 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/20.1
+vHalfAdder
+!s110 1638195857
+!i10b 1
+!s100 FOnSP[l^OfNO<MQ@VUc@[1
+Z0 !s11b Dg1SIo80bB@j0V0VzS_@n1
+Ii07X9ER<<IXCaQK]>BMcn3
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/Users/dell/Desktop/DSD Lab
+w1638195839
+8C:/Users/dell/Desktop/DSD Lab/halfadder.v
+FC:/Users/dell/Desktop/DSD Lab/halfadder.v
+!i122 2
+L0 1 6
+Z3 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1638195857.000000
+!s107 C:/Users/dell/Desktop/DSD Lab/halfadder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/dell/Desktop/DSD Lab/halfadder.v|
+!i113 1
+Z4 o-work work
+Z5 tCvgOpt 0
+n@half@adder
+vJKFF
+!s110 1638191279
+!i10b 1
+!s100 1hVEmB4l8E]ZiaNh4g3MN3
+R0
+I=^8mFA]008kT2Xa]d7]Pi2
+R1
+R2
+w1638191275
+8C:/Users/dell/Desktop/DSD Lab/JKFF.v
+FC:/Users/dell/Desktop/DSD Lab/JKFF.v
+!i122 0
+L0 1 16
+R3
+r1
+!s85 0
+31
+!s108 1638191279.000000
+!s107 C:/Users/dell/Desktop/DSD Lab/JKFF.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/dell/Desktop/DSD Lab/JKFF.v|
+!i113 1
+R4
+R5
+n@j@k@f@f
+vripplecounter
+!s110 1638365928
+!i10b 1
+!s100 AjQ64zok5FGfbcFGahAiS1
+R0
+IoG32Q`B>b?SkDTeJE05Q33
+R1
+R2
+w1638364563
+8C:/Users/dell/Desktop/DSD Lab/ripplecounter.v
+FC:/Users/dell/Desktop/DSD Lab/ripplecounter.v
+!i122 4
+L0 1 15
+R3
+r1
+!s85 0
+31
+!s108 1638365928.000000
+!s107 C:/Users/dell/Desktop/DSD Lab/ripplecounter.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/dell/Desktop/DSD Lab/ripplecounter.v|
+!i113 1
+R4
+R5
+vSynchronusCounter
+!s110 1638370826
+!i10b 1
+!s100 `bV5TW[giGJ:J9:QS8Yek3
+R0
+I6:NUVcNLFCVRR7EFdmg<:3
+R1
+R2
+w1638370816
+8C:\Users\dell\Desktop\DSD Lab\SynchronousCounter.v
+FC:\Users\dell\Desktop\DSD Lab\SynchronousCounter.v
+!i122 6
+L0 1 25
+R3
+r1
+!s85 0
+31
+!s108 1638370826.000000
+!s107 C:\Users\dell\Desktop\DSD Lab\SynchronousCounter.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\dell\Desktop\DSD Lab\SynchronousCounter.v|
+!i113 1
+R4
+R5
+n@synchronus@counter
+vupdowncounter
+!s110 1638368486
+!i10b 1
+!s100 D377013DbV:zMamKng;RR1
+R0
+IlZ0nOBoYi4_hmnm4M7iB`0
+R1
+R2
+w1638368479
+8C:/Users/dell/Desktop/DSD Lab/updowncounter.v
+FC:/Users/dell/Desktop/DSD Lab/updowncounter.v
+!i122 5
+L0 1 19
+R3
+r1
+!s85 0
+31
+!s108 1638368485.000000
+!s107 C:/Users/dell/Desktop/DSD Lab/updowncounter.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/dell/Desktop/DSD Lab/updowncounter.v|
+!i113 1
+R4
+R5
